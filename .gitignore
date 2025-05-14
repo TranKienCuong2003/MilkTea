@@ -1,0 +1,22 @@
+# ===== IDE config =====
+.settings/
+.vscode/
+.project
+.classpath
+
+# ===== Build output =====
+target/
+build/
+
+# ===== Database, env, log =====
+database/
+*.log
+*.env
+
+# ===== System files =====
+*.DS_Store
+Thumbs.db
+
+# ===== Java/Maven =====
+*.iml
+.mvn/
