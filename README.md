@@ -103,8 +103,8 @@ Milk Tea Shop is a comprehensive web application for managing a milk tea store, 
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/your-username/milk-tea-shop.git
-cd milk-tea-shop
+git clone https://github.com/TranKienCuong2003/MilkTea.git
+cd MilkTea
 ```
 
 ### 2. Database Configuration
@@ -112,7 +112,10 @@ cd milk-tea-shop
 1. Create a new database in MySQL:
 
 ```sql
-CREATE DATABASE milk_tea_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE [TeaShop]
+GO
+USE [TeaShop]
+GO
 ```
 
 2. Import database file:
